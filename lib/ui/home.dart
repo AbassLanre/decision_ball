@@ -7,7 +7,13 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  int ballAns = 1;
+  int ballAns ;
+  
+  @override
+  void initState() {
+    super.initState();
+    ballAns = 1;
+  }
 
   @override
   Widget build(BuildContext context) {
